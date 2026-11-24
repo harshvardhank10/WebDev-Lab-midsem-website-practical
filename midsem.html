@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Expense Tracker</title>
+
+     <script src="midsem.js"></script>   
+     <link rel="stylesheet" href="midsem.css">
+
+</head>
+<body>
+
+    <header>
+        <div class="page topbar">
+            <div class="brand">
+                <h1>Student Expense Tracker</h1>
+                <p>by Harshvardhan Kauthale</p> 
+            </div>
+        </div>
+    </header>
+ 
+    <hr>
+
+    <h4>Track your expenses and manage your budget effectively.</h4>
+    <h4>Enter your expenses below:</h4>
+
+    <div class="container">
+
+        <section class="summary">
+
+            <div class="summary-item">
+                <h4>Total Spent</h4>
+                <p>₹0.00</p>
+            </div>
+
+            <div class="summary-item">
+                <h4>Expenses Shown</h4>
+                <p>0</p>
+            </div>
+            <hr
+
+        </section>
+
+        <h2>Add Expenses</h2>
+
+
+        <form id="expense-form">
+            <label for="expense-name">Expense Name:</label>
+            <input type="text" id="expense-name" name="expense-name" required>
+
+            <label for="expense-amount">Amount:</label>
+            <input type="number" id="expense-amount" name="expense-amount" required>
+
+            <button type="submit">Add Expense</button>
+            
+            
+                    <label>Category</label>
+
+                    <select id="expense-category">
+                        <option>Food</option>
+                        <option>Travel</option>
+                        <option>Shopping</option>
+                        <option>Education</option>
+                        <option>Other</option>
+                    </select>
+                    
+
+                
+        </form>
+
+        
+         
+        <h2>Expense List</h2>
+        <ul id="expense-list"></ul> 
+
+        <select class="filter" id="category-filter">
+                        <option value="All">All Categories</option>
+                        <option>Food</option>
+                        <option>Travel</option>
+                        <option>Shopping</option>
+                        <option>Education</option>
+                        <option>Other</option>
+                    </select>
+         
+
+
+    
+                   
+    </div> 
+
+    <footer>
+        <p>&copy; 2024 Harshvardhan Kauthale. All rights reserved.</p>
+    </footer>
+
+
+    
+    
+        
+
+    
+
+
+         
+
+
+  
+
+
+
+    
+
+
+
+
+         
+
+         
+
+
+
+    
+
+
+            
+            
+
+            
+        
+    
+</body>
+</html>
